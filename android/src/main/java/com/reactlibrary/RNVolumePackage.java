@@ -16,7 +16,7 @@ public class RNVolumePackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNVolumeModule(reactContext));
     }
 
-    @Override
+//     @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
